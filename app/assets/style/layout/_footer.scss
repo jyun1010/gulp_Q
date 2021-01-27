@@ -1,0 +1,28 @@
+footer {
+  background-color: $bg_primary_color;
+  .container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer_info {
+    align-items: center;
+  }
+  .footer_menu {
+    color: $text_secondary;
+    a {
+      padding: 10px 10px 10px 0px;
+      color: $text_secondary;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .footer_sns {
+    li + li {
+      margin-left: 10px;
+    }
+    a:hover {
+      filter: drop-shadow(2px 2px 2px rgb(46, 46, 46));
+    }
+  }
+}

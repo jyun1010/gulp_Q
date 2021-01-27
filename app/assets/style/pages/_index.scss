@@ -1,0 +1,44 @@
+.search_area{
+
+    margin-bottom: 3%;
+}
+.search_form{
+    margin-bottom: 15px;
+}
+.search_input{
+    width: 80%;
+    margin: 0 auto;
+    input{
+        width: 100%;
+        border-radius: 30px;
+        border: 2px solid $bg_primary_color;
+        padding: 16px;
+        outline: none;
+    }
+    .go_search{
+        right: 2px;
+        top: 2px;
+        padding: 12px;
+        border-radius: 0 30px 30px 0px;
+        background-color: #e9d073;
+    }
+}
+.hot_keywords{
+    width: 95%;
+    margin: 0 auto;
+  
+    a{
+        padding: 8px 10px;
+        border-radius: 30px;
+        background-color: $bg_primary_color;
+        color: $text_secondary;
+        margin: 0px 5px;
+        &:hover{
+            background-color: $text_active;
+            // color: $text_active;
+          
+        }
+    }
+}
+
+

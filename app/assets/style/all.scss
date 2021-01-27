@@ -1,0 +1,15 @@
+@import "reset";
+@import "base";
+@import "utilities/variable";
+@import "utilities/util";
+
+// help
+@import "plugin/swiper.min";
+
+
+// layout
+@import "layout/header_index";
+@import "layout/footer";
+
+// pages
+@import "pages/index";

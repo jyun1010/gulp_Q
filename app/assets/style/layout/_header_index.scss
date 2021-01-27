@@ -1,0 +1,25 @@
+.index_header {
+  margin: 0 auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 14px;
+  h1{
+    a{
+      display: block;
+      background-image: url("../images/logo.png");
+      background-position: center ;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 80px;
+      height: 60px;
+      text-indent:101%;
+      overflow:hidden;
+      white-space: nowrap;
+    }
+  }
+  
+  li+li{
+    margin-left: 20px;
+  }
+}
